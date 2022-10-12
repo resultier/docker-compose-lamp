@@ -1,8 +1,7 @@
+.idea/
 .env
 /.env
 /.vscode
-/data/*
-/logs/*
 .DS_Store
 /buildtest
 .sample.env
