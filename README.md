@@ -23,15 +23,14 @@ This infra is designed so that you can have multiple *PHP* versions
 
 - Clone this repository on your local computer
 - configure .env as needed
+- copy or make symlinks to the folders profitic-api, profitic-main, protific-spa to `www` folder
 - Run the `docker-compose up -d`.
 
 ```shell
-git clone https://github.com/sprintcube/docker-compose-lamp.git
 cd docker-compose-lamp/
 cp .env.example .env
-// modify sample.env as needed
+// modify .env.example as needed 
 docker-compose up -d
-// visit localhost
 ```
 
 Your LAMP stack is now ready!! You can access it via `http://localhost`.
