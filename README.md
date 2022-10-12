@@ -23,7 +23,8 @@ This infra is designed so that you can have multiple *PHP* versions
 
 - Clone this repository on your local computer
 - configure .env as needed
-- copy or make symlinks to the folders profitic-api, profitic-main, protific-spa to `www` folder
+- copy or make symlinks to the folders [profitic-api](https://github.com/resultier/profitic-api), [profitic-main](https://github.com/resultier/profitic-main) and [profitic-spa](https://github.com/resultier/profitic-spa) to `www` folder
+- make sure you copy your ``config.php`` file to `profitic-main\includes` folder
 - Run the `docker-compose up -d`.
 
 ```shell
