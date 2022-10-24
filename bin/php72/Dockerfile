@@ -30,7 +30,7 @@ RUN docker-php-ext-enable redis
 
 # install nodeJS
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt-get install nodejs
+RUN apt-get -y install nodejs
 
 # Other PHP7 Extensions
 
